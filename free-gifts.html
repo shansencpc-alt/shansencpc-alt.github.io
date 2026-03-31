@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Gifts — Sherrina Hansen</title>
+  <meta name="description" content="Free printables, previews, and beautiful things from Sherrina Hansen. Yours, just because." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="site-nav">
+    <div class="site-nav__inner">
+      <a href="index.html" class="site-nav__logo"><div class="site-nav__logo-circle"><img src="images/sh-logo.png" alt="SH Studios" class="site-nav__logo-img"></div><div class="site-nav__logo-text"><span class="site-nav__logo-name">Sherrina Hansen</span><span class="site-nav__logo-studio">SH Studios</span></div></a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="toggleNav()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="site-nav__links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="my-story.html">My Story</a></li>
+        <li><a href="collection.html">The Collection</a></li>
+        <li><a href="free-gifts.html" class="active">Free Gifts</a></li>
+        <li><a href="chat.html">Chat</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header bg-cream">
+    <div class="container--narrow text-center">
+      <p class="page-header__subtitle">A little joy. At no cost.</p>
+      <h1>Free Gifts.</h1>
+      <div class="divider"><span class="divider-dot"></span></div>
+      <p style="max-width: 520px; margin: 0 auto; font-size: 0.95rem; color: #666;">These are here because I wanted you to have something good today. No purchase necessary. No catch. Just a few things made with care, waiting to land in your hands.</p>
+    </div>
+  </div>
+
+  <!-- GIFTS GRID -->
+  <section>
+    <div class="container">
+      <div class="gifts-grid">
+
+        <!--
+          GIFT CARDS — add your actual free gifts here.
+
+          For a free download (no email required):
+          Set the button to link directly to the file, e.g.:
+            <a href="downloads/your-file.pdf" download class="btn btn--teal">Download free</a>
+
+          For an email-gated gift (requires signup):
+          Set the button to your email platform's signup/landing page URL.
+
+          FLAG: You'll want at least one gift live before launch.
+          Suggested starting points from your website structure doc:
+            1. A printable coloring page from your coloring book
+            2. A Solace chapter preview (when ready)
+            3. A printable inspirational quote in your brand palette
+        -->
+
+        <!-- GIFT 1: Fairy Freebie -->
+        <div class="gift-card">
+          <div class="gift-card__icon" style="padding:0; overflow:hidden; border-radius:8px; margin-bottom:1rem;">
+            <img src="images/Fairy%20Freebie.png" alt="Fairy Coloring Page" style="width:100%; display:block; border-radius:8px;" />
+          </div>
+          <h3>Fairy Coloring Page</h3>
+          <p>A printable fairy coloring page from my collection. Yours to download, print, and fill in however you like. No signup needed.</p>
+          <a href="images/Fairy%20Freebie.png" download class="btn btn--teal" style="font-size:0.82rem;">Download free</a>
+        </div>
+
+        <!-- GIFT 2: Monster Freebie -->
+        <div class="gift-card">
+          <div class="gift-card__icon" style="padding:0; overflow:hidden; border-radius:8px; margin-bottom:1rem;">
+            <img src="images/Monster%20freebie.png" alt="Monster Coloring Page" style="width:100%; display:block; border-radius:8px;" />
+          </div>
+          <h3>Monster Coloring Page</h3>
+          <p>A silly, lovable monster page straight from Monster Mayhem. Print it, color it, and prove monsters are actually pretty fun.</p>
+          <a href="images/Monster%20freebie.png" download class="btn btn--teal" style="font-size:0.82rem;">Download free</a>
+        </div>
+
+        <!-- GIFT 3: Seasters Freebie -->
+        <div class="gift-card">
+          <div class="gift-card__icon" style="padding:0; overflow:hidden; border-radius:8px; margin-bottom:1rem;">
+            <img src="images/Seasters%20Freebie.jpg" alt="Seasters Coloring Page" style="width:100%; display:block; border-radius:8px;" />
+          </div>
+          <h3>Seasters Coloring Page</h3>
+          <p>A grayscale mermaid page from Seasters of the World. Dive in and make it your own. Completely free.</p>
+          <a href="images/Seasters%20Freebie.jpg" download class="btn btn--teal" style="font-size:0.82rem;">Download free</a>
+        </div>
+
+        <!-- GIFT 2: Inspirational Quote Printable -->
+        <div class="gift-card">
+          <div class="gift-card__icon">✨</div>
+          <h3>Something Worth Printing</h3>
+          <p>A printable quote in my brand palette. Something to put on your desk or give to someone who needs it. Completely free.</p>
+          <!--
+            Replace with your actual quote printable download link.
+          -->
+          <a href="#" class="btn btn--teal" style="font-size:0.82rem;">Download free</a>
+        </div>
+
+        <!-- GIFT 3: Email-gated — Letter from Sherrina / chapter preview -->
+        <div class="gift-card">
+          <div class="gift-card__icon">📖</div>
+          <h3>Letters from My Creative Life</h3>
+          <p>Subscribe to my list and I'll send you letters from the writing life: what I'm working on, what's inspiring me, and an early look at <em>Solace</em> when it's ready.</p>
+          <!--
+            Replace the href below with your email platform signup page URL.
+            (Mailchimp or ConvertKit landing page)
+          -->
+          <a href="#" class="btn" style="font-size:0.82rem;">Subscribe. It's free.</a>
+        </div>
+
+        <!--
+          Add more gifts as they're ready. Copy the gift-card block above.
+          From your website structure doc, future ideas include:
+          - A Solace chapter preview (when further along)
+          - A reading guide or book club questions (at launch)
+        -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER CTA -->
+  <section class="bg-cream" style="padding: 4rem 0; text-align: center;">
+    <div class="container--narrow">
+      <p style="font-family:'Cormorant Garamond',serif; font-style:italic; font-size:1.3rem; margin-bottom:1.5rem;">"Want more? The Collection is full of beautiful things."</p>
+      <a href="collection.html" class="btn btn--red">The Collection</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="site-nav__logo-name">Sherrina Hansen</span>
+          <span class="site-nav__logo-studio">SH Studios</span>
+          <p>Author. Artist. Dreamer. I create from the middle of a real life. And I wouldn't have it any other way.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/sherrinahansen/" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.pinterest.com/sh_studios" target="_blank" rel="noopener">Pinterest</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="my-story.html">My Story</a></li>
+            <li><a href="collection.html">The Collection</a></li>
+            <li><a href="free-gifts.html">Free Gifts</a></li>
+            <li><a href="chat.html">Chat</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Find My Work</h4>
+          <ul>
+            <li><a href="https://www.amazon.com/stores/author/B0DHF5XF2K/allbooks" target="_blank" rel="noopener">Amazon Books</a></li>
+            <li><a href="https://www.etsy.com/shop/3RealmsbySHStudios" target="_blank" rel="noopener">Etsy Shop</a></li>
+            <li><a href="chat.html">Send a Message</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Sherrina Hansen &middot; SH Studios. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      document.getElementById('nav-links').classList.toggle('is-open');
+    }
+  </script>
+
+</body>
+</html>
